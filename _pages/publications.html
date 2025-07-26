@@ -4,6 +4,31 @@ title: "Research"
 permalink: /publications/
 author_profile: true
 ---
+---
+layout: archive
+title: "Research"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">
+    You can also find my articles on 
+    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  </div>
+{% endif %}
+
+<h2>Publications</h2>
+<ul>
+  {% for post in site.publications reversed %}
+    <li>
+      {{ post.title }}
+      {% if post.paperurl %}
+        – <a href="{{ post.paperurl | relative_url }}" download>Download PDF</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
