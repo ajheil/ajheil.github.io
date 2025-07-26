@@ -4,21 +4,18 @@
 {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="display: flex; gap: 1rem; align-items: flex-start;">
 
     {% if teaser %}
-      <div class="archive__item-teaser" style="flex: 0 0 200px; max-width: 200px;">
+      <div class="archive__item-teaser" style="flex: 0 0 200px;">
         <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ base_path }}/images/{{ teaser }}{% endif %}" alt="{{ title }}" style="max-width: 100%; height: auto; border-radius: 4px;">
       </div>
     {% endif %}
 
-    <div class="archive__item-text" style="flex: 1; min-width: 250px;">
+    <div class="archive__item-text" style="flex: 1;">
       <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a>
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-            <i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span>
-          </a>
         {% else %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
         {% endif %}
@@ -32,10 +29,8 @@
         <p><strong>Publication:</strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
       {% endif %}
 
-      {% if post.excerpt and site.read_more != 'enabled' %}
+      {% if post.excerpt %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-      {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
       {% endif %}
 
       {% assign downloads = "" %}
@@ -45,6 +40,11 @@
       {% if downloads != "" %}
         <p>{{ downloads }}</p>
       {% endif %}
+    </div>
+
+  </article>
+</div>
+
 
     </div>
   </article>
