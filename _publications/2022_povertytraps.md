@@ -1,6 +1,6 @@
 ---
 title: "Why Do People Stay Poor"
-with: 'Clare Balboni, Robin Burgess, Oriana Bandiera, Maitreesh Ghatak'
+authors: 'Clare Balboni, Robin Burgess, Oriana Bandiera, Maitreesh Ghatak'
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
