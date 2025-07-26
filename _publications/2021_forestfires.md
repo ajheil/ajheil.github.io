@@ -1,5 +1,5 @@
 ---
-title: 'Cycles of Fire? Politics and Forest Buring in Indonesia'
+title: 'Cycles of Fire? Politics and Forest Burning in Indonesia'
 collection: publications
 category: manuscripts
 permalink: /publication/2021_forestfires
