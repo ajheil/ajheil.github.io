@@ -1,6 +1,18 @@
 ---
 title: "Weathering poverty"
-authors: 'Clare Balboni, Oriana Bandiera, Robin Burgess, Clement Mazet-Sonilhac, Munshi Sulaiman, Yifan Wang'
+authors:
+  - name: Clare Balboni
+    url: https://gabrielwebsite.com
+  - name: Oriana Bandiera
+    url: https://www.orianabandiera.net/
+  - name: Robin Burgess
+    url: https://robinburgess.net
+  - name: Clement Mazet-Sonilhac
+    url: https://cms27.github.io/
+  - name: Munshi Sulaiman
+    url: https://bigd.bracu.ac.bd/staffprofile/munshi-sulaiman/
+  - name: Yifan Wang
+    url: https://www.lse.ac.uk/economics/people/research-students/yifan-wang
 collection: publications
 category: conferences
 permalink: /publication/2024_weatheringpoverty
