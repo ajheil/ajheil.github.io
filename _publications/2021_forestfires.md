@@ -10,7 +10,7 @@ authors:
   - name: Jonathan Old
     url: https://jonathanold.github.io/
   - name: Benjamin Olken
-    url: https://jonathanold.github.io/](https://economics.mit.edu/people/faculty/benjamin-olken
+    url: https://economics.mit.edu/people/faculty/benjamin-olken
 collection: publications
 category: manuscripts
 permalink: /publication/2021_forestfires
