@@ -1,5 +1,6 @@
 ---
 title: "Weathering poverty"
+authors: 'With Clare Balboni (LSE), Oriana Bandiera (LSE), Robin Burgess (LSE), Clement Mazet-Sonilhac (Bocconi), Munshi Sulaiman (BRAC), Yifan Wang (LSE)'
 collection: publications
 category: conferences
 permalink: /publication/2024_weatheringpoverty
