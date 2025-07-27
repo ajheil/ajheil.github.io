@@ -18,24 +18,28 @@
         {% endif %}
       </h2>
 
-  {% if post.authors %}
-      <p><strong>With:</strong>
-      {% if post.authors.first.name %}
-      {% for author in post.authors %}
-        <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-      {% else %}
-      {{ post.authors }}
+      {% if post.authors %}
+        <p style="margin-bottom: 0.2em;"><strong>With:</strong>
+          {% if post.authors.first.name %}
+            {% for author in post.authors %}
+              <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          {% else %}
+            {{ post.authors }}
+          {% endif %}
+        </p>
       {% endif %}
-      {% endif %}      
+
       {% if post.venue or post.date %}
-        <p><strong> </strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+        <p style="margin: 0.2em 0;">
+          {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+        </p>
       {% endif %}
 
       {% if post.excerpt and site.read_more != 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em;">{{ post.excerpt | markdownify }}</p>
       {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
       {% endif %}
 
       {% assign downloads = "" %}
@@ -43,7 +47,7 @@
       {% if post.slidesurl %}{% assign downloads = downloads | append: ' | <a href="' | append: post.slidesurl | append: '">Download Slides</a>' %}{% endif %}
       {% if post.bibtexurl %}{% assign downloads = downloads | append: ' | <a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' %}{% endif %}
       {% if downloads != "" %}
-        <p>{{ downloads }}</p>
+        <p style="margin-top: 0.2em;">{{ downloads }}</p>
       {% endif %}
     </div>
 
