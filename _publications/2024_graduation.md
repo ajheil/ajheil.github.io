@@ -1,6 +1,6 @@
 ---
 title: "Graduation"
-authors: 'With Munshi Sulaiman, Oriana Bandiera, Robin Burgess'
+authors: 'Munshi Sulaiman, Oriana Bandiera, Robin Burgess'
 collection: publications
 category: manuscripts
 permalink: /publication/2024_graduation
