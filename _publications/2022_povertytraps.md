@@ -8,7 +8,7 @@ authors:
   - name: Maitreesh Ghatak
     url: https://personal.lse.ac.uk/ghatak/
   - name: Clare Balboni
-    url: https://personal.lse.ac.uk/ghatak/](https://sites.google.com/view/clare-balboni/home
+    url: https://sites.google.com/view/clare-balboni/home
 collection: publications
 category: manuscripts
 permalink: /publication/2022_povertytraps
