@@ -1,6 +1,11 @@
 ---
 title: "Graduation"
-authors: 'Munshi Sulaiman, Oriana Bandiera, Robin Burgess'
+  - name: Oriana Bandiera
+    url: https://www.orianabandiera.net/
+  - name: Robin Burgess
+    url: https://robinburgess.net
+  - name: Munshi Sulaiman
+    url: https://bigd.bracu.ac.bd/staffprofile/munshi-sulaiman/
 collection: publications
 category: manuscripts
 permalink: /publication/2024_graduation
