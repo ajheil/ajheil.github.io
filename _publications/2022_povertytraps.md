@@ -4,7 +4,7 @@ authors:
   - name: Oriana Bandiera
     url: https://www.orianabandiera.net/
   - name: Robin Burgess
-    url: https://robinburgess.net
+    url: https://www.robinburgess.com/
   - name: Maitreesh Ghatak
     url: https://personal.lse.ac.uk/ghatak/
   - name: Clare Balboni
