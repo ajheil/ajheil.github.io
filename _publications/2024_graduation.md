@@ -1,5 +1,6 @@
 ---
 title: "Graduation"
+authors:
   - name: Oriana Bandiera
     url: https://www.orianabandiera.net/
   - name: Robin Burgess
