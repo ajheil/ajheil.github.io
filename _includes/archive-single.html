@@ -30,7 +30,7 @@
       </p>
       {% endif %}      
       {% if post.venue or post.date %}
-        <p><strong>Publication:</strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+        <p><strong> :</strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
       {% endif %}
 
       {% if post.excerpt and site.read_more != 'enabled' %}
