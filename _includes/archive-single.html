@@ -19,7 +19,7 @@
       </h2>
 
   {% if post.authors %}
-      <p><strong>Authors:</strong>
+      <p><strong>With:</strong>
       {% if post.authors.first.name %}
       {% for author in post.authors %}
         <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
