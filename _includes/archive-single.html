@@ -19,7 +19,7 @@
       </h2>
 
       {% if post.authors %}
-        <p style="margin-bottom: 0.2em;"><strong>With:</strong>
+        <p><strong>With:</strong>
           {% if post.authors.first.name %}
             {% for author in post.authors %}
               <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
@@ -31,15 +31,18 @@
       {% endif %}
 
       {% if post.venue or post.date %}
-        <p style="margin: 0.2em 0;">
+        <p>
           {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
         </p>
       {% endif %}
 
-      {% if post.excerpt and site.read_more != 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em;">{{ post.excerpt | markdownify }}</p>
-      {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
+      {% if post.abstract %}
+        <details style="margin-top: 0.5em;">
+          <summary style="cursor: pointer;">▶ Click for abstract</summary>
+          <div style="margin-top: 0.5em;">
+            {{ post.abstract | markdownify }}
+          </div>
+        </details>
       {% endif %}
 
       {% assign downloads = "" %}
@@ -47,7 +50,7 @@
       {% if post.slidesurl %}{% assign downloads = downloads | append: ' | <a href="' | append: post.slidesurl | append: '">Download Slides</a>' %}{% endif %}
       {% if post.bibtexurl %}{% assign downloads = downloads | append: ' | <a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' %}{% endif %}
       {% if downloads != "" %}
-        <p style="margin-top: 0.2em;">{{ downloads }}</p>
+        <p>{{ downloads }}</p>
       {% endif %}
     </div>
 
@@ -59,3 +62,4 @@
 
   </article>
 </div>
+
