@@ -1,6 +1,16 @@
 ---
 title: 'Cycles of Fire? Politics and Forest Burning in Indonesia'
-authors: 'Clare Balboni, Robin Burgess, Jonathan Old, Ben Olken'
+authors:
+  - name: Oriana Bandiera
+    url: https://www.orianabandiera.net/
+  - name: Robin Burgess
+    url: https://robinburgess.net
+  - name: Clare Balboni
+    url: https://sites.google.com/view/clare-balboni/home
+  - name: Jonathan Old
+    url: https://jonathanold.github.io/
+  - name: Benjamin Olken
+    url: https://jonathanold.github.io/](https://economics.mit.edu/people/faculty/benjamin-olken
 collection: publications
 category: manuscripts
 permalink: /publication/2021_forestfires
