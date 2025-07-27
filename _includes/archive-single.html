@@ -18,10 +18,17 @@
         {% endif %}
       </h2>
 
-      {% if post.authors %}
-        <p><strong>With:</strong> {{ post.authors }}</p>
+  {% if post.authors %}
+      <p><strong>Authors:</strong>
+      {% if post.authors.first.name %}
+      {% for author in post.authors %}
+        <a href="{{ author.url }}">{{ author.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      {% else %}
+      {{ post.authors }}
       {% endif %}
-
+      </p>
+      {% endif %}      
       {% if post.venue or post.date %}
         <p><strong>Publication:</strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
       {% endif %}
