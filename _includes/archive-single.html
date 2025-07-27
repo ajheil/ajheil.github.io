@@ -27,7 +27,6 @@
       {% else %}
       {{ post.authors }}
       {% endif %}
-      </p>
       {% endif %}      
       {% if post.venue or post.date %}
         <p><strong> </strong> {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
