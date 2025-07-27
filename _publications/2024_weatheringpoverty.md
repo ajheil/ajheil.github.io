@@ -4,7 +4,7 @@ authors: 'With Clare Balboni (LSE), Oriana Bandiera (LSE), Robin Burgess (LSE), 
 collection: publications
 category: conferences
 permalink: /publication/2024_weatheringpoverty
-date: 2024-02-17
+#date: 2024-02-17
 #venue: 'GitHub Journal of Bugs'
 #paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 header:
