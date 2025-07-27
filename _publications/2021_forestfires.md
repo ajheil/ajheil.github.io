@@ -1,6 +1,6 @@
 ---
 title: 'Cycles of Fire? Politics and Forest Burning in Indonesia'
-authors: 'With Clare Balboni, Robin Burgess, Jonathan Old, Ben Olken'
+authors: 'Clare Balboni, Robin Burgess, Jonathan Old, Ben Olken'
 collection: publications
 category: manuscripts
 permalink: /publication/2021_forestfires
