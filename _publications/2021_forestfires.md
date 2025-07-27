@@ -4,7 +4,7 @@ authors:
   - name: Oriana Bandiera
     url: https://www.orianabandiera.net/
   - name: Robin Burgess
-    url: https://robinburgess.net
+    url: https://www.robinburgess.com/
   - name: Clare Balboni
     url: https://sites.google.com/view/clare-balboni/home
   - name: Jonathan Old
