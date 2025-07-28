@@ -34,6 +34,7 @@
         </p>
       {% endif %}
       
+
       {% if post.coverage %}
         <p style="font-size: 0.9em; margin: 0.5em 0 0 0;"><strong>Coverage:</strong>
           {% for outlet in post.coverage %}
@@ -41,9 +42,7 @@
           {% endfor %}
         </p>
       {% endif %}
-    </div>
-
-      {% if post.abstract %}
+        {% if post.abstract %}
         <details style="margin-top: 0.25em;">
           <summary style="cursor: pointer;">Click for abstract</summary>
           <div style="margin-top: 0.5em;">
@@ -51,7 +50,9 @@
           </div>
         </details>
       {% endif %}
-    
+      
+    </div>
+
     {% if teaser %}
       <div class="archive__item-teaser" style="flex: 0 0 35%; max-width: 300px;">
         <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ base_path }}/images/{{ teaser }}{% endif %}" alt="{{ title }}" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
