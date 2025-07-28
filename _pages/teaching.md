@@ -8,13 +8,10 @@ author_profile: true
 
 Here is a list of my teaching assignments:
 
-- **Fall 2024** – *Introductory Macroeconomics*, University of XYZ
-- **Spring 2024** – *Econometrics I (TA)*, University of XYZ
-- **Fall 2023** – *Microeconomic Theory*, University of XYZ
-- **Spring 2023** – *Quantitative Methods (TA)*, University of XYZ
+- **Development Economics** – *London School of Economics*, Spring 2025, 2023-2024, Spring 2023
+- **Econometrics** – *London School of Economics*, Autumn 2022
+- **Global Inequality and Growth** – *University of California, Berkeley*, Spring 2020
+- **International Trade** – *University of California, Berkeley*, Autumn 2019
+- **Academic writing and presentation** – *University of Bayreuth*, 2015
+- **Introduction to Microeconomics** – *University of Bayreuth*, 2014
 
-
-#{% include base_path %}
-#{% for post in site.teaching reversed %}
-#{% include archive-single.html %}
-#{% endfor %}
