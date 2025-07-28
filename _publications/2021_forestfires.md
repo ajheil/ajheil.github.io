@@ -1,12 +1,10 @@
 ---
 title: 'Cycles of Fire? Politics and Forest Burning in Indonesia'
 authors:
-  - name: Oriana Bandiera
-    url: https://www.orianabandiera.net/
-  - name: Robin Burgess
-    url: https://www.robinburgess.com/
   - name: Clare Balboni
     url: https://sites.google.com/view/clare-balboni/home
+  - name: Robin Burgess
+    url: https://www.robinburgess.com/
   - name: Jonathan Old
     url: https://jonathanold.github.io/
   - name: Benjamin Olken
