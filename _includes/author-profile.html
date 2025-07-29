@@ -7,9 +7,9 @@
 <div itemscope itemtype="http://schema.org/Person">
 
 {% if author.avatar contains "://" %}
-  <img src="{{ author.avatar }}" alt="{{ author.name }}" style="max-width: 150px; height: auto; border-radius: 50%;" fetchpriority="high" />
+  <img src="{{ author.avatar }}" alt="{{ author.name }}" style="max-width: 180px; height: auto; border-radius: 50%;" fetchpriority="high" />
 {% else %}
-  <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" style="max-width: 150px; height: auto; border-radius: 50%;" alt="{{ author.name }}" fetchpriority="high" />
+  <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" style="max-width: 180px; height: auto; border-radius: 50%;" alt="{{ author.name }}" fetchpriority="high" />
 {% endif %}
 
   <div class="author__content">
