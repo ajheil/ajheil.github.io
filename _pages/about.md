@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a 5th year PhD student in economics at the London School of Economics. I hold a Masters in Economics from University of California Berkeley. Before starting the PhD, I worked as a Predoc at the LSE.
+Hi! I am PhD candidate in economics at the London School of Economics. I hold a masters in Economics from University of California Berkeley. Before starting the PhD, I worked as a Predoc at the LSE.
 
 My research is in Development and Environmental and Trade Economics.
 
