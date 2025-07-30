@@ -1,14 +1,14 @@
 ---
 title: "Why Do People Stay Poor?"
 authors:
+  - name: Clare Balboni
+    url: https://sites.google.com/view/clare-balboni/home
   - name: Oriana Bandiera
     url: https://www.orianabandiera.net/
   - name: Robin Burgess
     url: https://www.robinburgess.com/
   - name: Maitreesh Ghatak
     url: https://personal.lse.ac.uk/ghatak/
-  - name: Clare Balboni
-    url: https://sites.google.com/view/clare-balboni/home
 collection: publications
 category: manuscripts
 permalink: /publication/2022_povertytraps
