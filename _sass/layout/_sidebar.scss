@@ -80,11 +80,9 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar img {
-  width: 300px !important;
-  height: 280px !important;
-  object-fit: cover;
-  border-radius: 0% !important;
+.author__avatar {
+  width: auto;
+}
 
   @include breakpoint($large) {
     padding: 5px;
