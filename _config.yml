@@ -23,7 +23,7 @@ repository               : "ajheil/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Anton Heil"
+  name             : #""
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Economics PhD"
   location         : #""
