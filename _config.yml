@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             :  # empty name
-  pronouns         : "he/him"
-  bio              : "Economics PhD"
+  pronouns         :
+  bio              : 
   location         : 
   employer         :
   uri              : 
