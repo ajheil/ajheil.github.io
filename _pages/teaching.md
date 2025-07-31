@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-Here is a list of my teaching assignments:
+Here is a list of courses for which I have been a teaching assistant:
 
 - **Development Economics** - *LSE and IZA global online course*, Spring 2024
 - **Development Economics** – *London School of Economics*, 2023, 2024, 2025
