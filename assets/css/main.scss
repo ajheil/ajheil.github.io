@@ -40,3 +40,14 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+// Custom link styling
+a {
+  color: #111111; // Dark blue (Google-style)
+  text-decoration: none;
+
+  &:hover {
+    color: #555555; // Dark red on hover
+    text-decoration: underline;
+  }
+}
