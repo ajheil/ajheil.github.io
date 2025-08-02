@@ -35,12 +35,8 @@ author:
       icon: "fas fa-file-alt"
       url: /cv.pdf
 
-    - label: "Publications"
+    - label: "Research"
       icon: "fas fa-book"
-      url: /publications/
-
-    - label: "Work in Progress"
-      icon: "fas fa-wrench"
       url: /publications/
 
     - label: "Teaching"
