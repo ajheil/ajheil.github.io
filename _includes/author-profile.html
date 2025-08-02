@@ -168,17 +168,18 @@
     </ul>
   </div>
 
-  {% if author.links %}
-    <hr>
-    <ul class="author__urls custom-links">
-      {% for link in author.links %}
-        <li>
-          <a href="{{ link.url }}">
-            <i class="{{ link.icon }}"></i> {{ link.label }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+{% if author.links %}
+  <hr>
+  <ul class="author__urls custom-links">
+    {% for link in author.links %}
+      <li>
+        <a href="{{ link.url }}">
+          <i class="{{ link.icon }}"></i> {{ link.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 
 </div>
