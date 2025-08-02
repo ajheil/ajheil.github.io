@@ -11,7 +11,7 @@ I am PhD candidate in economics at the London School of Economics. Before starti
 
 My research is in Development Economics.
 
-You can learn more about my research <a href="/publications/">here</a> and <a href="{{ site.author.googlescholar }}">in my Google Scholar </a>. Find my <a href="/cv.pdf">CV here</a>
+You can learn more about my research <a href="/publications/">here</a> and in my <a href="{{ site.author.googlescholar }}">Google Scholar</a>. Find my <a href="/cv.pdf">CV here</a>
 
 <br>
 Contact me: <a href="mailto:j.heil@lse.ac.uk">j.heil@lse.ac.uk</a>
