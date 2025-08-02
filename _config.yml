@@ -43,13 +43,13 @@ author:
       icon: "fas fa-wrench"
       url: /publications/
 
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=XTGAa9wAAAAJ&hl=en"
-
     - label: "Teaching"
       icon: "fas fa-pencil-alt"
       url:  /teaching/
+
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=XTGAa9wAAAAJ&hl=en"
 
 
   # Academic websites
