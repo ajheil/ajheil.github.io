@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am PhD candidate in economics at the <a href="https://www.lse.ac.uk/economics/people/research-students/anton-heil/"> London School of Economics</a>. Before starting the PhD, I worked as a research manager at the LSE and as a consultant at the World Bank. I hold a BA in Philosophy & Economics from the University of Bayreuth and an MA in Economics from University of California, Berkeley. 
+I am PhD candidate in economics at the <a href="https://www.lse.ac.uk/economics/people/research-students/anton-heil/"> London School of Economics</a>. Before starting the PhD, I worked as a research manager at the LSE and as a consultant at the World Bank. I hold a BA in Philosophy & Economics from the <a href="https://www.uni-bayreuth.de/en/bachelor/economics">University of Bayreuth</a> and an MA in Economics from<a href="https://econ.berkeley.edu/">University of California, Berkeley.</a>  
+
 
 My research is in Development Economics.
 
