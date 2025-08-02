@@ -21,33 +21,23 @@ repository               : "ajheil/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
   avatar           : "profile.jpg"
-  name             :  # empty name
-  pronouns         :
-  bio              : 
-  location         : 
-  employer         :
-  uri              : 
+  name             : "Anton Heil"
   email            : "j.heil@lse.ac.uk"
 
-  #links:
-  #  - label: "CV"
-  #    icon: "fas fa-file-alt"
-  #    url: "/cv/"
-#
-#    - label: "Email"
-#      icon: "fas fa-envelope"
-#      url: "mailto:j.heil@lse.ac.uk"
-#
-#    - label: "Publications"
-#      icon: "fas fa-book"
-#      url: "/publications/"
-#
-#    - label: "Work in Progress"
-#      icon: "fas fa-wrench"
-#      url: "/conferences/"
-
+  links:
+    - label: "CV"
+      icon: "fas fa-file-alt"
+      url: "/cv/"
+    - label: "Research"
+      icon: "fas fa-flask"
+      url: "/research/"
+    - label: "Publications"
+      icon: "fas fa-book"
+      url: "/publications/"
+    - label: "Work in Progress"
+      icon: "fas fa-wrench"
+      url: "/conferences/"
 
   # Academic websites
   academia         : # URL
