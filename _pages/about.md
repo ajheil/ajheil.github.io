@@ -11,7 +11,7 @@ I am PhD candidate in economics at the London School of Economics. Before starti
 
 My research is in Development Economics.
 
-You can learn more about my <a href="/publications/">research here</a> {% if site.author.googlescholar %} and <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>{% endif %}. Find my <a href="/cv.pdf">CV here</a>
+You can learn more about my <a href="/publications/">research here</a> and <a href="{{ site.author.googlescholar }}">my Google Scholar </a>{% endif %}. Find my <a href="/cv.pdf">CV here</a>
 
 <br>
 
