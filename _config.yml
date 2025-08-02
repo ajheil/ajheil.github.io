@@ -47,6 +47,10 @@ author:
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=XTGAa9wAAAAJ&hl=en"
 
+    - label: "Teaching"
+      icon: "fas fa-pencil-alt"
+      url:  /teaching/
+
 
   # Academic websites
   academia         : # URL
