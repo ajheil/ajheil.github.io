@@ -28,7 +28,7 @@ author:
   links:
 
     - label: "Email"
-      icon: "fas fa-fw fa-envelope icon-pad-right"
+      icon: "fas fa-envelope"
       url: "mailto:j.heil@lse.ac.uk"
 
     - label: "CV"
