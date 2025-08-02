@@ -11,4 +11,6 @@ I am PhD candidate in economics at the London School of Economics. Before starti
 
 My research is in Development Economics.
 
-
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
