@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Anton Heil"
 title_separator          : "-"
 name                     : &name "Anton Heil"
-description              : &description ""
+description: &description "PhD Candidate in Economics at the London School of Economics"
 url                      : https://ajheil.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ajheil/academicpages.github.io"
@@ -317,7 +317,6 @@ permalink: /:categories/:title/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -325,6 +324,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -334,7 +334,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
+  - jekyll-seo-tag
 
 # Archives
 #  Type
@@ -371,3 +371,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+google_site_verification: txD_7Vn32cBp37hoMjiyfrYuzWdm3N_m5E_poZpZC7s
