@@ -55,7 +55,11 @@
           {% endfor %}
         </p>
       {% endif %}
-      
+
+      {% if page.award %}
+  <p>{{ page.award }}</p>
+{% endif %}
+
       {% if post.abstract %}
         <details style="margin-top: 0.25em;">
           <summary style="cursor: pointer;">Click for abstract</summary>
