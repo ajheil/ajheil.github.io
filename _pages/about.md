@@ -11,7 +11,7 @@ I am PhD candidate in economics at the <a href="https://www.lse.ac.uk/economics/
 
 My research is in Development and Environmental Economics.
 
-You can learn more about my <a href="https://ajheil.github.io/publications/">research here</a> and in my <a href="https://scholar.google.com/citations?user=XTGAa9wAAAAJ&hl=en">Google Scholar</a> profile. Find my <a href="https://ajheil.github.io/publications/cv.pdf">CV here</a>.
+You can learn more about my <a href="https://antonjheil.github.io/publications/">research here</a> and in my <a href="https://scholar.google.com/citations?user=XTGAa9wAAAAJ&hl=en">Google Scholar</a> profile. Find my <a href="https://antonjheil.github.io/publications/cv.pdf">CV here</a>.
 
 Contact me: <a href="mailto:j.heil@lse.ac.uk">j.heil@lse.ac.uk</a>
 <br>
