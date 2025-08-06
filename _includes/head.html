@@ -4,6 +4,7 @@
 
 {% include seo.html %}
 <link rel="canonical" href="https://antonjheil.github.io/" />
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <!-- http://t.co/dKP3o1e -->
