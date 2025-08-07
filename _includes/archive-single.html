@@ -56,8 +56,12 @@
         </p>
       {% endif %}
 
-{% if post.award %}
-  <p>{{ post.award }}</p>
+{% if page.award %}
+  <div style="margin-top: 0.5em;">
+    {% for a in page.award %}
+      <div style="font-size: 0.85em; color: gray;">{{ a }}</div>
+    {% endfor %}
+  </div>
 {% endif %}
 
       {% if post.abstract %}
